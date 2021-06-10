@@ -2,7 +2,8 @@
   "kind": "singleType",
   "collectionName": "landing_pages",
   "info": {
-    "name": "landingPage"
+    "name": "landingPage",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -25,6 +26,16 @@
       "type": "component",
       "repeatable": false,
       "component": "page.header"
+    },
+    "sectionAboutProject": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-about-project"
+    },
+    "sectionTech": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-tech"
     }
   }
 }
