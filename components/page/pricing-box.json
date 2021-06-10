@@ -19,14 +19,14 @@
       "type": "integer",
       "required": true
     },
+    "benefits": {
+      "type": "richtext",
+      "required": true
+    },
     "button": {
       "type": "component",
       "repeatable": false,
       "component": "page.button",
-      "required": true
-    },
-    "benefits": {
-      "type": "richtext",
       "required": true
     }
   }
