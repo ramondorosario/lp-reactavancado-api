@@ -2,8 +2,14 @@
   "collectionName": "components_page_concepts",
   "info": {
     "name": "concepts",
-    "icon": "clipboard-list"
+    "icon": "clipboard-list",
+    "description": ""
   },
   "options": {},
-  "attributes": {}
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    }
+  }
 }
